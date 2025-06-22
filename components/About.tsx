@@ -5,10 +5,10 @@ export default function About() {
 		<section className="px-6 lg:px-24 py-20 bg-[#0f1117]">
 			<h2 className="text-2xl font-bold mb-4">About me</h2>
 			<p className="text-gray-400 max-w-2xl">
-				I started my software journey from photography. Through that, I
-				learned to love the process of creating from scratch. Since then,
-				this has led me to software development as it fulfills my love for
-				learning and building things.
+				I started my software journey from photography and graphics design.
+				Through that, I learned to love the process of creating from
+				scratch. Since then, this has led me to software development as it
+				fulfills my love for learning and building things.
 			</p>
 
 			<div className="mt-10 grid grid-cols-3 sm:grid-cols-3 gap-6 max-w-xl">

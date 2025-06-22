@@ -1,6 +1,7 @@
 // components/Navbar.tsx
 "use client";
-import { useState } from "react";
+
+import React, { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import Link from "next/link";
 

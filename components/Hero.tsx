@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 // components/Hero.tsx
 export default function Hero() {
 	return (
@@ -13,17 +14,29 @@ export default function Hero() {
 				</h2>
 
 				<div className="flex gap-4 mt-6">
-					<button className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600">
+					<a
+						href="https://github.com/favmaclegend-ops"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 flex items-center justify-center">
 						Got a project?
-					</button>
-					<button className="border border-white px-4 py-2 rounded-md hover:bg-white hover:text-black">
+					</a>
+					<a
+						href="/CV.pdf"
+						className="border border-white px-4 py-2 rounded-md hover:bg-white hover:text-black">
 						My resume
-					</button>
+					</a>
 				</div>
 			</div>
 
 			<div className="rounded-full border-4 border-red-500 p-2">
-				<div className="bg-gray-300 rounded-full  size-56" />
+				<img
+					src="/images/profile.jpeg"
+					alt="Favour Macauley"
+					width={200}
+					height={200}
+					className="rounded-full"
+				/>
 			</div>
 		</section>
 	);
