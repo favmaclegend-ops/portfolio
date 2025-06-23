@@ -14,16 +14,16 @@ export default function Navbar() {
 			<h1 className="text-lg font-semibold">Favour Macauley</h1>
 
 			<nav className="hidden md:flex gap-6">
-				<Link href="#home" className="hover:text-red-500">
+				<Link href="/" className="hover:text-red-500">
 					Home
 				</Link>
-				<Link href="#about" className="hover:text-red-500">
+				<Link href="/about" className="hover:text-red-500">
 					About
 				</Link>
-				<Link href="#projects" className="hover:text-red-500">
+				<Link href="/projects" className="hover:text-red-500">
 					Projects
 				</Link>
-				<Link href="#contact" className="hover:text-red-500">
+				<Link href="/contact" className="hover:text-red-500">
 					Contact
 				</Link>
 			</nav>
